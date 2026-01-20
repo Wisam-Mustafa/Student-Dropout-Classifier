@@ -24,17 +24,35 @@ The model achieved strong performance metrics on the test set, proving its relia
 | **ROC-AUC** | **0.93** | Excellent capability in distinguishing between at-risk and safe students. |
 | **Accuracy** | **88%** | High overall correctness. |
 | **Recall (Dropout)**| **78%** | Successfully captures 78% of actual dropouts (Crucial for minimizing False Negatives). |
+<br>
+<div align="center">
+  <img src="screenshots/s1.png" width="700">
+  <br>
+ </div>
+<br>
 
 ###  Confusion Matrix & ROI
 The model successfully flagged a significant number of at-risk students who would have otherwise been missed. In an educational context, this translates to:
 - **Early Intervention:** Advisors can focus on students flagged by the model.
 - **Resource Optimization:** Targeting support where it's needed most.
+<br>
+  <div align="center">
+  <img src="screenshots/s2.png" width="700">
+  <br>
+ </div>
+<br>
 
 ##  Key Insights (Drivers of Dropout)
 Based on the Feature Importance analysis, the top factors predicting dropout are:
 1.  **2nd Semester Academic Performance:** Grades and approved units in the 2nd semester are the strongest predictors.
 2.  **Tuition Fees Status:** Financial distress (failure to pay fees) is a critical early warning sign.
 3.  **Age at Enrollment:** Older students tend to face higher risks of dropping out.
+<br>
+   <div align="center">
+  <img src="screenshots/s3.png" width="700">
+  <br>
+ </div>
+<br>
 
 ##  How to Run
 1.  **Clone the repository:**
@@ -52,4 +70,6 @@ Based on the Feature Importance analysis, the top factors predicting dropout are
 ├── data                    # Dataset file (csv)
 ├── notebook                # Jupyter Notebook with full analysis & code
 ├── README.md               # Project documentation
+├── screenshots/            # Project screenshots
 └── requirements.txt        # Dependencies
+
