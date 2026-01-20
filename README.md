@@ -30,13 +30,13 @@ The model successfully flagged a significant number of at-risk students who woul
 - **Early Intervention:** Advisors can focus on students flagged by the model.
 - **Resource Optimization:** Targeting support where it's needed most.
 
-## 🔍 Key Insights (Drivers of Dropout)
+##  Key Insights (Drivers of Dropout)
 Based on the Feature Importance analysis, the top factors predicting dropout are:
 1.  **2nd Semester Academic Performance:** Grades and approved units in the 2nd semester are the strongest predictors.
 2.  **Tuition Fees Status:** Financial distress (failure to pay fees) is a critical early warning sign.
 3.  **Age at Enrollment:** Older students tend to face higher risks of dropping out.
 
-## 🚀 How to Run
+##  How to Run
 1.  **Clone the repository:**
   
 2.  **Install dependencies:**
@@ -47,7 +47,7 @@ Based on the Feature Importance analysis, the top factors predicting dropout are
     Open `Student_Dropout_Classifier.ipynb` in Jupyter Notebook or Google Colab.
     *(Ensure `dataset.csv` is in the same directory)*.
 
-## 📂 Project Structure
+##  Project Structure
 ```text
 ├── data                    # Dataset file (csv)
 ├── notebook                # Jupyter Notebook with full analysis & code
